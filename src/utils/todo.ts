@@ -1,5 +1,6 @@
 export default interface TodoType{
     id:number,
     text:string,
-    completed:boolean;
+    completed:boolean,
+    dueDate: Date | null;
 }
